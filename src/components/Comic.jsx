@@ -1,4 +1,4 @@
-export default function Comic(){
+export default function Comic({comic}){
     return(
         <div className='container'>
             
