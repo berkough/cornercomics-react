@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.nav{
+  background-color: #0d6efd;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 28px;
+  padding: 0 14px;
+}
+.nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav li.active{
+  background-color: rgb(99, 123, 201);
+}
+
+.nav li:hover{
+  background-color: rgb(130, 159, 255)
+}
+
+.nav-title{
+  font-size: 24px;
+}
