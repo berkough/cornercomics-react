@@ -4,7 +4,7 @@ import logo from '../assets/logo.png'
 export default function Nav(){
     return(
         <nav className='nav'>
-            <img src={logo} height='100px' alt='Corner Comics Logo' />
+            <img src={logo} height='80px' alt='Corner Comics Logo' />
             <ul>
                 <li><Link to='/'>Main</Link></li>
                 <li><Link to='/collection'>Collection</Link></li>
